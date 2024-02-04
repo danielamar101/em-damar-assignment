@@ -88,11 +88,11 @@ def fetch_report(host):
         'Host': host,
         'Is Exceptional': jsonned_response['endpoints'][0]['isExceptional'],
         'Grade': jsonned_response['endpoints'][0]['grade'],
-        'tls_protocol': [protocol['version'] for protocol in details['protocols']],
+        'TLS Protocol': [protocol['version'] for protocol in details['protocols']],
         'Top Level Cert Revocation Status': is_revoked,
         'Issued At': issued_at,
         'Is Valid Until': is_valid_until,
-        'Encrpytion Method': encryption_readable_string,
+        'Encryption Method': encryption_readable_string,
         'Issued By': readable_issued_by
     }), 200
 
