@@ -1,0 +1,4 @@
+name: em-env
+
+dependencies:
+  - python==3.11

@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Run Python File",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py", // Specify the path to the file you want to run
+            "cwd": "/Users/danielamar/Desktop/Code/job-assignments/elliot-management-amar-assignment/", // Replace with your specific working directory
+            "console": "integratedTerminal"
+        }
+    ]
+}

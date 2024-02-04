@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  em-damar-app:
+    container_name: em-damar-app
+    build: .
+    ports:
+      - "4545:4545"
+    user: "1000"  # Use the UID of the non-root user you created
